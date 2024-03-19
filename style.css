@@ -226,15 +226,46 @@ span{
     text-align: left;
     line-height: 1.5;
 }
+.about-content .Skill h2{
+    text-align: left;
+    line-height: 1;
+    font-size: 5rem;
+}
+.about-content .Skill h3{
+    text-align: left;
+    line-height: 2;
+    font-size: 2rem;
+}
 .about-content h3{
     font-size: 2.6rem;   
+}
+.about-content ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align:left;
+}
+.about-content ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+.about-content ul li a:hover{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+.about-content ul li{
+    display: inline-block;
+    pad: 0 15px;
 }
 .about-content p{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
 .about-content .text-animation span::before{
-    content: 'Web Developer';
+    content: 'Academics';
     color: var(--main-color);
     animation: words 20s infinite;
 }
